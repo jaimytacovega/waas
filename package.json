@@ -1,5 +1,5 @@
 {
-  "name": "worker-as-server",
+  "name": "web-fluid",
   "version": "0.0.1",
   "description": "Worker as a Server",
   "main": "index.js",
@@ -54,5 +54,8 @@
   "devDependencies": {
     "@cloudflare/kv-asset-handler": "^0.3.1",
     "urlpattern-polyfill": "^10.0.0"
+  },
+  "dependencies": {
+    "mime": "^3.0.0"
   }
 }
