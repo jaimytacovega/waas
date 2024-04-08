@@ -1,5 +1,5 @@
 {
-  "name": "waas",
+  "name": "@worker/waas",
   "version": "0.0.1",
   "description": "Worker as a Server",
   "main": "index.js",

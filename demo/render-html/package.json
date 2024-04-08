@@ -1,5 +1,5 @@
 {
-    "name": "@waas/demo/render-html",
+    "name": "@worker/waas/demo/render-html",
     "type": "module",
     "scripts": {
         "watch:dev": "ENV=dev vite build --watch",
