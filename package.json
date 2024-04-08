@@ -1,0 +1,58 @@
+{
+  "name": "waas",
+  "version": "0.0.1",
+  "description": "Worker as a Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaimytacovega/waas.git"
+  },
+  "author": "Jaimy Taco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaimytacovega/waas/issues"
+  },
+  "homepage": "https://github.com/jaimytacovega/waas#readme",
+  "exports": {
+    ".": {
+      "default": "./index.js"
+    },
+    "./cloudflare.js": {
+      "default": "./cloudflare.js"
+    },
+    "./cookie.js": {
+      "default": "./cookie.js"
+    },
+    "./file.js": {
+      "default": "./file.js"
+    },
+    "./html.js": {
+      "default": "./html.js"
+    },
+    "./kv.js": {
+      "default": "./kv.js"
+    },
+    "./offline.js": {
+      "default": "./offline.js"
+    },
+    "./router.js": {
+      "default": "./router.js"
+    },
+    "./urlpattern.js": {
+      "default": "./urlpattern.js"
+    },
+    "./util.js": {
+      "default": "./util.js"
+    },
+    "./worker.js": {
+      "default": "./worker.js"
+    }
+  },
+  "devDependencies": {
+    "@cloudflare/kv-asset-handler": "^0.3.1",
+    "urlpattern-polyfill": "^10.0.0"
+  }
+}

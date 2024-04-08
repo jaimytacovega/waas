@@ -1,0 +1,18 @@
+{
+    "name": "@waas/demo/render-html",
+    "type": "module",
+    "scripts": {
+        "watch:dev": "ENV=dev vite build --watch",
+        "build:dev": "ENV=dev vite build",
+        "local": "wrangler dev --env=dev --config wrangler.toml",
+
+        "watch:qa": "ENV=qa vite build --watch",
+        "build:qa": "ENV=qa vite build",
+        "local:qa": "wrangler dev --env=qa --config wrangler.toml"
+    },
+    "devDependencies": {
+        "vite": "^5.0.2",
+        "vite-jsconfig-paths": "^2.0.1",
+        "wrangler": "^3.26.0"
+    }
+}

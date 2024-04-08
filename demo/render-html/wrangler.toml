@@ -1,0 +1,26 @@
+name = "my-worker"
+main = "src/cloudflare.worker.js"
+compatibility_date = "2023-10-30"
+
+minify = false
+
+[site]
+bucket = "./dist"
+
+[env.dev.vars]
+IS_CLOUDFLARE_WORKER = true
+APP_NAME = "my-worker"
+ENV = "dev"
+REGION="pe"
+
+[env.qa.vars]
+IS_CLOUDFLARE_WORKER = true
+APP_NAME = "my-worker"
+ENV = "qa"
+REGION="pe"
+
+[env.prod.vars]
+IS_CLOUDFLARE_WORKER = true
+APP_NAME = "my-worker"
+ENV = "prod"
+REGION="pe"

@@ -1,0 +1,17 @@
+:root{
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+}
+
+*{
+    margin-inline: 0;
+    margin-block: 0;
+    padding-inline: 0;
+    padding-block: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--color-white);
+    color: var(--color-black);
+}
